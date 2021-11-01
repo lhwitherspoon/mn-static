@@ -1,5 +1,5 @@
 {
-  "name": "mn-gatsby",
+  "name": "mn-static",
   "private": true,
   "description": "Adapted from Gatsby-starter-default for Gatsby 4.0 by Kyle Mathews",
   "version": "0.1.0",
@@ -38,7 +38,7 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {

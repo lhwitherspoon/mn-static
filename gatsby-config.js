@@ -28,10 +28,6 @@ module.exports = {
       }
     },
     "gatsby-plugin-mdx",
-
-    {
-      pathPrefix="/mn-gatsby",
-    },
     
     {
       resolve: `gatsby-plugin-manifest`,
