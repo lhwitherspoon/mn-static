@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmeditrinalia_gatsby=self.webpackChunkmeditrinalia_gatsby||[]).push([[617],{9863:function(e,t,a){a.r(t);var n=a(7294),l=a(5444),c=a(5127),r=a(3751);t.default=function(){return n.createElement(c.Z,null,n.createElement(r.Z,{title:"Page two"}),n.createElement("h1",null,"Hi from the second page"),n.createElement("p",null,"Welcome to page 2"),n.createElement(l.Link,{to:"/"},"Go back to the homepage"))}}}]);
+//# sourceMappingURL=component---src-pages-page-2-js-7bcde2688b802b5c2bb1.js.map

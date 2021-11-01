@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-articles-index-js",
+    "path": "/articles/",
+    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"date":"November 7, 2018","title":"An End and a Beginning"},"id":"a3b124cd-564f-5408-8657-0eda95d38c8d","slug":"an-end-and-a-beginning"},{"frontmatter":{"date":"January 31, 2015","title":"Why I Urge You to Vaccinate Your Child"},"id":"1f05c914-0370-500d-8ab6-38ff945d219f","slug":"vaccinate-your-child"},{"frontmatter":{"date":"January 31, 2015","title":"His Cervix, Her Prostate"},"id":"f73583ea-2be1-5c0b-b805-8d80134010a5","slug":"his-cervix-her-prostate"}]}},"pageContext":{}},
+    "staticQueryHashes": ["3649515864","63159454"]}

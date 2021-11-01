@@ -1,2 +1,0 @@
-# mn-static
-# mn-static
