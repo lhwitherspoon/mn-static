@@ -51,7 +51,7 @@ const ResourcesPage = () => (
                 <li><a href='https://www.seattlechildrens.org/clinics/gender-clinic/'>Rain City Integrative</a></li>
                 <li><a href='https://www.virginiamason.org/transgender-health'>Virginia Mason</a></li>
                 <li>Planned Parenthood – <a
-                        href='https://www.plannedparenthood.org/get-care/our-services/lgbt-services'>see this link</a>
+                        href='https://www.plannedparenthood.org/get-care/our-services/lgbt-services'>see this link </a>
                     for their LGBTQ+ services</li>
 
             </ul>
