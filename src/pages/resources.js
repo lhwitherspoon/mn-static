@@ -60,7 +60,7 @@ const ResourcesPage = () => (
                     availability for after-hours situations. You can also usually be seen in the office within 24 hours
                     for urgent situations. Sometimes, though, that’s not possible.</del> So for when it’s not bad enough
                 for the emergency room, but can’t wait until the office is open:</p>
-            <p><strong>Country Doctor After Hours Clinic</strong>: located at Carolyn Downs Family Medical Center at 2101 E Yesler Way, Seattle, Washington 98122</p>
+            <p><strong><a href='https://countrydoctor.org/after-hours-clinic/'>Country Doctor After Hours Clinic</a></strong>: located at Carolyn Downs Family Medical Center at 2101 E Yesler Way, Seattle, Washington 98122</p>
             <p>Open 6-10 pm M-F and 12-10 pm Sat &amp; Sun. Call (206) 709-7199; no appointments needed, takes walk-in; may not be open on holidays. Takes all
                 insurances. Long-time provider of health care to the LGTBQ community.</p>
 

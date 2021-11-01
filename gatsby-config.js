@@ -4,7 +4,7 @@ module.exports = {
     description: `Contact information for Meditrinalia Naturopathic, now closed.`,
     author: `Les Witherspoon`,
     siteUrl: `https://lhwitherspoon.com/`,
-    // pathPrefix: "/mn-static",
+    pathPrefix: "/mn-static",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

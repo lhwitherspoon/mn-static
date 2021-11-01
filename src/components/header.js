@@ -29,7 +29,7 @@ const Header = ({ siteTitle }) => (
       </h1> */}
     </div>
     <nav id="myMenu" className="w3-bar w3-border-bottom w3-border-blue">
-    <Link className='w3-bar-item w3-mobile w3-left' to='index.html'><StaticImage src="../images/MNLOGOMED640X146.png" alt="" width={240}
+    <Link className='w3-bar-item w3-mobile w3-left' to='/'><StaticImage src="../images/MNLOGOMED640X146.png" alt="" width={240}
                 height={54}/></Link>
     <div className="w3-right">
       <Link to="/" className="w3-bar-item w3-padding-medium w3-button w3-hover-none w3-hover-text-blue w3-mobile" >Home</Link>
