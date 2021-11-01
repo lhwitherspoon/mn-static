@@ -1,37 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+import * as React from "react"
+//import { Link } from "gatsby"
+//import { StaticImage } from "gatsby-plugin-image"
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meditrinalia Naturopathic</title>
-    <link rel="stylesheet" href="w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Bitter">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="main.css">
-</head>
+import Layout from "../components/layout"
+//import { Hero } from "../components/hero-image"
+import Seo from "../components/seo"
 
-<body>
-    <nav id="myMenu" class="w3-bar w3-border-bottom w3-border-blue">
 
-        <a class='w3-bar-item w3-mobile w3-left' href='index.html'><img src="images/MNLOGOMED640X146.png" alt="" width="240"
-                height="54"></a>
+const ResourcesPage = () => (
+    <Layout>
+        <Seo title="Healthcare resources for Seattle-area LGTBQ Individuals" />
+    <div className="blog">
 
-       <div class="w3-right">
-           <a class="w3-bar-item w3-padding-medium w3-button w3-hover-none w3-hover-text-blue w3-mobile" href="index.html">Home</a>
-            <a class="w3-bar-item w3-padding-medium w3-button w3-hover-none w3-hover-text-blue w3-mobile"
-                href="about.html">About</a>
-            <a class="w3-bar-item w3-padding-medium w3-button w3-hover-none w3-hover-text-blue w3-mobile"
-                href="resources.html">Resources</a>
-            <a class="w3-bar-item w3-padding-medium w3-button w3-hover-none w3-hover-text-blue w3-mobile"
-                href="contact.html">Contact</a>
-            <a class="w3-bar-item w3-padding-medium w3-button w3-hover-none w3-hover-text-blue w3-mobile"
-                href="articles.html">Articles</a>
-       </div>
-<!-- TODO update resources, remove strike throughs -->
-
-    <main class='w3-container w3-auto w3-section blog'>
-        <section class="w3-container">
+    <section className="w3-container">
             <h1>Resources</h1>
             <h3>Seattle and national health resources</h3>
             <h2><strong>For Life Threatening Emergencies: Call 9-1-1</strong></h2>
@@ -84,8 +65,8 @@
             <p>Open 6-10 pm M-F and 12-10 pm Sat &amp; Sun. Call (206) 329-5556; may not be open on holidays. Takes all
                 insurances. Long-time provider of health care to the LGTBQ community.</p>
             <p><strong>Immediate Clinic</strong>: Make an appointment online at <a
-                    href='https://www.immediateclinic.com/' target='_blank'
-                    class='url'>https://www.immediateclinic.com/</a> (also takes Apple Health, Molina, UHC Community
+                    href='https://www.immediateclinic.com/' target='_blank' rel='noreferrer' 
+                    className='url'>https://www.immediateclinic.com/</a> (also takes Apple Health, Molina, UHC Community
                 Plan and Amerigroup)</p>
             <h2><strong>Transgender and LGBTQ Resources:</strong></h2>
             <ul>
@@ -101,24 +82,24 @@
             </ul>
             <h3><strong>Insurer’s portals: Medicaid, Premera, Molina, Amerigroup, UHC, Regence, Group Health</strong>
             </h3>
-            <!-- TODO check and remove links -->
+            {/* <!-- TODO check and remove links --> */}
             <ul>
-                <li>Medicaid: <a href='https://www.waproviderone.org/client' target='_blank'
-                        class='url'>https://www.waproviderone.org/client</a></li>
+                <li>Medicaid: <a href='https://www.waproviderone.org/client' target='_blank' rel='noreferrer' 
+                        className='url'>https://www.waproviderone.org/client</a></li>
                 <li>Molina Healthcare: <a href='http://www.molinahealthcare.com/'>www.molinahealthcare.com/</a></li>
-                <li>Amerigroup: <a href='https://www.myamerigroup.com/' target='_blank'
-                        class='url'>https://www.myamerigroup.com/</a></li>
+                <li>Amerigroup: <a href='https://www.myamerigroup.com/' target='_blank' rel='noreferrer' 
+                        className='url'>https://www.myamerigroup.com/</a></li>
                 <li>United Healthcare Community Plan: <a
                         href='http://www.uhccommunityplan.com/'>www.uhccommunityplan.com/ </a>(Applehealth/Medicaid)
                 </li>
                 <li>United Healthcare (all other):<a href='https://www.uhc.com/'> https://www.uhc.com/</a></li>
                 <li>Premera: <a href='https://www.premera.com/'>https://www.premera.com</a></li>
                 <li>Regence:<a href='https://www.regence.com/web/regenceindividual/'>
-                        https://www.regence.com/web/regenceindividual/</em></a></li>
-                <li>First Choice: <a href='https://www.fchn.com/' target='_blank' class='url'>https://www.fchn.com/</a>
+                        https://www.regence.com/web/regenceindividual/</a></li>
+                <li>First Choice: <a href='https://www.fchn.com/' target='_blank' rel='noreferrer' className='url'>https://www.fchn.com/</a>
                 </li>
-                <li>Group Health Co-op: <a href='https://www.ghc.org/' target='_blank'
-                        class='url'>https://www.ghc.org/</a></li>
+                <li>Group Health Co-op: <a href='https://www.ghc.org/' target='_blank' rel='noreferrer'
+                        className='url'>https://www.ghc.org/</a></li>
                 <li>Need insurance? Start your search at <a href='https://www.wahealthplanfinder.org/'>Washington
                         Healthplan Finder</a></li>
 
@@ -134,53 +115,19 @@
             <p>In general, the research supports a heavily plant-based diet (though not necessarily <em>vegan</em>) for
                 optimal health.</p>
             <ul>
-                <li><a href='https://www.choosemyplate.gov/' target='_blank'
-                        class='url'>https://www.choosemyplate.gov/</a> My Plate – a good place to start for advice.</li>
+                <li><a href='https://www.choosemyplate.gov/' target='_blank' rel='noreferrer'
+                        className='url'>https://www.choosemyplate.gov/</a> My Plate – a good place to start for advice.</li>
                 <li>DASH (Dietary Approaches To Stop Hypertension) diet: <a
-                        href='https://www.nhlbi.nih.gov/files/docs/public/heart/dash_brief.pdf' target='_blank'
-                        class='url'>https://www.nhlbi.nih.gov/files/docs/public/heart/dash_brief.pdf</a></li>
+                        href='https://www.nhlbi.nih.gov/files/docs/public/heart/dash_brief.pdf' target='_blank' rel='noreferrer'
+                        className='url'>https://www.nhlbi.nih.gov/files/docs/public/heart/dash_brief.pdf</a></li>
 
             </ul>
         </section>
+    </div>
 
-    </main>
+    </Layout>
 
 
+)
 
-    <footer class='w3-container w3-cell-row w3-margin-top w3-pale-blue w3-border-top w3-border-blue blog'>
-        <div class="w3-container w3-cell w3-margin-top w3-mobile w3-cell-top">
-            <h2>To request copies of your medical records by mail:</h2>
-            <p id="contact">
-                <b>1904 3rd Avenue location ONLY:</b><br>
-                Meditrinalia Naturopathic<br>
-                PO Box 28727<br>
-                Seattle, WA 98118</p>
-
-            <p><b>Bastyr Center for Natural Health:</b><br>
-                3670 Stone Way N.<br>
-                Seattle, WA 98103
-            </p>
-
-            <p><b>Rain City Integrative Clinic:</b><br>
-                2730 Westlake Ave N, Unit 4<br>
-                Seattle, WA 98109</p>
-            <a href="mailto: info@meditrinalia.com">You can also contact me by email.</a>
-        </div>
-        <div id="portal" class="w3-container w3-cell w3-margin-top w3-mobile w3-cell-top">
-            <h2>Login to patient portal:</h2>
-            <a href="https://charmphr.com/login.sas?FACILITY=G08672zx67020x67020Kx77aG00x7m70SA70x6700rG2">1904 3rd Ave
-                Location Patient Portal</a>
-            <p>This will let you download labs and print out old treatment plans.</p>
-            <p>Do not use this link for urgent requests. For lifethreatening emergencies, call 9-1-1.</p>
-
-            <p>Rain City Integrative Clinic patients please log in at the <a
-                    href="https://15731.portal.athenahealth.com/">Rain City patient portal.</a></p>
-            <p>Bastyr Center for Natural Health patients please log in at the <a
-                    href="https://mychart.ochin.org/MyChart/Authentication/Login?">BCNH patient portal.</a></p>
-
-        </div>
-    </footer>
-    <div class="w3-container w3-center">&copy;2020 L H Witherspoon</div>
-</body>
-
-</html>
+export default ResourcesPage
