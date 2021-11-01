@@ -51,7 +51,7 @@ const ResourcesPage = () => (
                 <li><a href='https://www.seattlechildrens.org/clinics/gender-clinic/'>Rain City Integrative</a></li>
                 <li><a href='https://www.virginiamason.org/transgender-health'>Virginia Mason</a></li>
                 <li>Planned Parenthood – <a
-                        href='https://www.plannedparenthood.org/get-care/our-services/lgbt-services'>see this link</a>
+                        href='https://www.plannedparenthood.org/get-care/our-services/lgbt-services'>see this link </a>
                     for their LGBTQ+ services</li>
 
             </ul>
@@ -60,14 +60,10 @@ const ResourcesPage = () => (
                     availability for after-hours situations. You can also usually be seen in the office within 24 hours
                     for urgent situations. Sometimes, though, that’s not possible.</del> So for when it’s not bad enough
                 for the emergency room, but can’t wait until the office is open:</p>
-            <p><strong>Country Doctor After Hours Clinic</strong>: located at Swedish Cherry Hill at 550 16th Ave,
-                Seattle, WA 98122</p>
-            <p>Open 6-10 pm M-F and 12-10 pm Sat &amp; Sun. Call (206) 329-5556; may not be open on holidays. Takes all
+            <p><strong>Country Doctor After Hours Clinic</strong>: located at Carolyn Downs Family Medical Center at 2101 E Yesler Way, Seattle, Washington 98122</p>
+            <p>Open 6-10 pm M-F and 12-10 pm Sat &amp; Sun. Call (206) 709-7199; no appointments needed, takes walk-in; may not be open on holidays. Takes all
                 insurances. Long-time provider of health care to the LGTBQ community.</p>
-            <p><strong>Immediate Clinic</strong>: Make an appointment online at <a
-                    href='https://www.immediateclinic.com/' target='_blank' rel='noreferrer' 
-                    className='url'>https://www.immediateclinic.com/</a> (also takes Apple Health, Molina, UHC Community
-                Plan and Amerigroup)</p>
+
             <h2><strong>Transgender and LGBTQ Resources:</strong></h2>
             <ul>
                 <li><a href='http://ingersollcenter.org/'>Ingersollcenter.org:</a> resources for transgender and gender
