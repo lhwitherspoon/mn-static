@@ -9,7 +9,7 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Meditrinalia Naturopathic" />
+    <Seo title="Meditrinalia Naturopathic - practice closed" />
 
   <Hero></Hero>
     
