@@ -37,19 +37,15 @@ const ResourcesPage = () => (
             </ul>
             <h3>LGBTQ+ Friendly providers and clinics:</h3>
             <p><em>These are some of the clinics and providers I have referred people to in the past. Obviously
-                    providers and policies may have changed.</em><a
-                    href='https://ingersollgendercenter.org/ingersoll-directory/'> <em>Ingersoll Gender Center</em></a>
-                <em>has a database of Seattle-area providers.</em></p>
+                    providers and policies may have changed.</em></p>
             <ul>
                 <li><a href='https://countrydoctor.org/'>Country Doctor Clinic</a> (Capitol Hill)</li>
                 <li><a href='https://www.cedarriverclinics.org/'>Cedar River Clinics</a> (gender-affirming care)</li>
-                <li><a href='https://www.queenannemedicalassociates.com/'>Queen Anne Medical</a></li>
+          
                 <li><a href='https://www.swedish.org/locations/swedish-family-medicine-cherry-hill'>Swedish Family
                         Medicine – Cherry Hill</a></li>
-                <li>For teens and kids – <a href='https://www.seattlechildrens.org/clinics/gender-clinic/'>Seattle
-                        Children’s Gender Clinic</a></li>
-                <li><a href='https://www.seattlechildrens.org/clinics/gender-clinic/'>Rain City Integrative</a></li>
-                <li><a href='https://www.virginiamason.org/transgender-health'>Virginia Mason</a></li>
+              
+               
                 <li>Planned Parenthood – <a
                         href='https://www.plannedparenthood.org/get-care/our-services/lgbt-services'>see this link </a>
                     for their LGBTQ+ services</li>
@@ -71,9 +67,7 @@ const ResourcesPage = () => (
                 <li><a href='http://sasgcc.org/links/transgender'>sasgcc.org/links/transgender</a></li>
                 <li><a href='https://www.gaycity.org/transgender/'>https://www.gaycity.org/transgender/ </a></li>
                 <li><a href='http://www.gaycity.org/'>www.gaycity.org</a></li>
-                <li><a href='http://genderodyssey.org/'>genderodyssey.org</a>: a yearly conference, but also a valuable
-                    resource for training and information.</li>
-                <li><a href='https://kctransguide.org/'>King County Trans Resource and Referral Guide</a></li>
+       
 
             </ul>
             <h3><strong>Insurer’s portals: Medicaid, Premera, Molina, Amerigroup, UHC, Regence, Group Health</strong>
