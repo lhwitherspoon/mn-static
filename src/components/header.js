@@ -35,7 +35,7 @@ const Header = ({ siteTitle }) => (
       <Link to="/" className="w3-bar-item w3-padding-medium w3-button w3-hover-none w3-hover-text-blue w3-mobile" >Home</Link>
           <Link to="/about"  className="w3-bar-item w3-padding-medium w3-button w3-hover-none w3-hover-text-blue w3-mobile">About</Link>
             
-          <Link to="/resources" className="w3-bar-item w3-padding-medium w3-button w3-hover-none w3-hover-text-blue w3-mobile">Resources</Link>
+{/* <Link to="/resources" className="w3-bar-item w3-padding-medium w3-button w3-hover-none w3-hover-text-blue w3-mobile">Resources</Link> */}
           <Link to="/contact" className="w3-bar-item w3-padding-medium w3-button w3-hover-none w3-hover-text-blue w3-mobile">Contact</Link>
           <Link to="/articles/" className="w3-bar-item w3-padding-medium w3-button w3-hover-none w3-hover-text-blue w3-mobile">Articles</Link>
        </div>
